@@ -14,4 +14,3 @@ hibernate.cache.use_second_level_cache=true
 hibernate.cache.use_query_cache=true
 EOF
 fi
-

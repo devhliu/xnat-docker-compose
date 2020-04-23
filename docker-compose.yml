@@ -10,7 +10,7 @@ services:
         XNAT_DATASOURCE_USERNAME: 'xnat'
         XNAT_DATASOURCE_PASSWORD: 'xnat'
         XNAT_HIBERNATE_DIALECT: 'org.hibernate.dialect.PostgreSQL9Dialect'
-        TOMCAT_XNAT_FOLDER: ROOT
+        TOMCAT_XNAT_FOLDER: 'xnat'
         XNAT_ROOT: /data/xnat
         XNAT_HOME: /data/xnat/home
     ports:

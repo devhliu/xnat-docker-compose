@@ -32,8 +32,7 @@ RUN apk add --no-cache \
         ${XNAT_ROOT}/pipeline \
         ${XNAT_ROOT}/prearchive \
     && \
-    /usr/local/bin/make-xnat-config.sh && \
-    rm /usr/local/bin/make-xnat-config.sh && \
+    /bin/bash /usr/local/bin/make-xnat-config.sh && \
     cd $CATALINA_HOME/webapps/ && \
     wget https://api.bitbucket.org/2.0/repositories/xnatdev/xnat-web/downloads/xnat-web-${XNAT_VER}.war && \
     cd ${TOMCAT_XNAT_FOLDER} && \
